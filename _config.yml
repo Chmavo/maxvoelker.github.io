@@ -11,7 +11,7 @@
   author:
     name: ""
     bio: ""
-    avatar: "/assets/images/profile.jpg"
+    avatar: "/assets/images/profile.jpeg"
     links:
       - label: "Resume"
         icon: "fas fa-file-pdf"
