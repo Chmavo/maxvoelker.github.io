@@ -2,8 +2,6 @@
 layout: single
 author_profile: true
 title: "About Me"
-header:
-  image: /assets/images/nyc.jpg
 ---
 
 I'm a technology professional at Amazon Web Services (AWS) with a passion for leveraging data science and machine learning to solve complex challenges. My background includes innovative work in anomaly detection, having developed a patent for "Systems and Methods for Data Exfiltration Detection" that identifies unusual network traffic patterns.
