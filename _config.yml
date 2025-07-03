@@ -9,8 +9,6 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: ""
-  bio: ""
   avatar: "/assets/images/profile.jpeg"
   links:
     - label: "Resume"
