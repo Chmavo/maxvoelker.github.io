@@ -2,20 +2,15 @@
 layout: single
 author_profile: true
 title: "About Me"
+header:
+  image: /assets/images/nyc-skyline-header.jpg
 ---
 
-Welcome to my professional portfolio. I'm passionate about technology and innovation, with a focus on building meaningful solutions.
+I'm a technology professional at Amazon Web Services (AWS) with a passion for leveraging data science and machine learning to solve complex challenges. My background includes innovative work in anomaly detection, having developed a patent for "Systems and Methods for Data Exfiltration Detection" that identifies unusual network traffic patterns.
 
-## Experience
+With a strong academic foundation from NYU Stern School of Business, I've demonstrated expertise in predictive analytics through projects like predicting customer churn for Kickstarter campaigns, developing risk assessment models for account creation, and analyzing restaurant health inspection ratings using machine learning.
 
-Details about your professional background and key achievements.
-
-## Skills
-
-- Technical expertise
-- Problem-solving
-- Leadership
-- Communication
+My technical skills span data normalization, isolation forest algorithms, and advanced risk-based feature extraction. I'm driven by transforming complex data into actionable insights that can drive strategic decision-making.
 
 ## Connect
 
