@@ -3,7 +3,8 @@ layout: single
 author_profile: true
 title: "About Me"
 header:
-  teaser: "/assets/images/EC7520AD-BD54-4954-A645-EEB0D180E0E4_1_102_o.jpeg"
+  image: "/assets/images/EC7520AD-BD54-4954-A645-EEB0D180E0E4_1_102_o.jpeg"
+  image_description: "Header image"
 ---
 
 Coming soon.

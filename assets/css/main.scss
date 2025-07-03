@@ -1,0 +1,15 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.page__hero--overlay .page__hero-image {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.page__hero-image {
+  max-height: 300px;
+  object-fit: cover;
+}
