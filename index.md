@@ -1,9 +1,8 @@
 ---
 layout: single
 author_profile: true
+title: "About Me"
 ---
-
-# About Me
 
 Welcome to my professional portfolio. I'm passionate about technology and innovation, with a focus on building meaningful solutions.
 
