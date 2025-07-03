@@ -3,24 +3,22 @@
   url: "https://maxvoelker.com"
   baseurl: ""
 
-  remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+  remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+  plugins:
+    - jekyll-include-cache
 
-author:
-  avatar: "/assets/images/profile.jpeg"
-  links:
-    - label: "Resume"
-      icon: "fas fa-file-pdf"
-      url: "https://www.dropbox.com/scl/fi/9qizuhstcuv3zzmwzt2dm/Charles_Voelker_DataScienceManager_Resume_2025_05_08.pdf?rlkey=q5w0xlsy0b33qjiqp2ncsn4qp&st=arhijls8&dl=0"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/cmaxvoelker"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/Chmavo"
+  author:
+    name: "Max Voelker"
+    bio: ""
+    avatar: "/assets/images/profile.jpeg"
+    links:
+      - label: "Resume"
+        icon: "fas fa-file-pdf"
+        url: "https://www.dropbox.com/scl/fi/9qizuhstcuv3zzmwzt2dm/Charles_Voelker_DataScienceManager_Resume_2025_05_08.pdf?rlkey=q5w0xlsy0b33qjiqp2ncsn4qp&st=arhijls8&dl=0"
+      - label: "LinkedIn"
+        icon: "fab fa-linkedin"
+        url: "https://www.linkedin.com/in/cmaxvoelker"
+      - label: "GitHub"
+        icon: "fab fa-github"
+        url: "https://github.com/Chmavo"
