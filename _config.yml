@@ -6,7 +6,10 @@
   remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 
 plugins:
-  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
 
 author:
   avatar: "/assets/images/profile.jpeg"
