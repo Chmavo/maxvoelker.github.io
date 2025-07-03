@@ -9,13 +9,13 @@
     - jekyll-include-cache
 
   author:
-    name: "Max Voelker"
+    name: ""
     bio: ""
     avatar: "/assets/images/profile.jpg"
     links:
       - label: "Resume"
         icon: "fas fa-file-pdf"
-        url: "your-dropbox-resume-link"
+        url: "https://www.dropbox.com/scl/fi/9qizuhstcuv3zzmwzt2dm/Charles_Voelker_DataScienceManager_Resume_2025_05_08.pdf?rlkey=q5w0xlsy0b33qjiqp2ncsn4qp&st=arhijls8&dl=0"
       - label: "LinkedIn"
         icon: "fab fa-linkedin"
         url: "https://www.linkedin.com/in/cmaxvoelker"
