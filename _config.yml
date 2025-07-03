@@ -1,0 +1,21 @@
+  title: Max Voelker
+  description: Professional Resume & Portfolio
+  url: "https://maxvoelker.com"
+  baseurl: ""
+
+  remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+
+  plugins:
+    - jekyll-include-cache
+
+  author:
+    name: "Max Voelker"
+    bio: "Your professional bio here"
+    location: "Your Location"
+    links:
+      - label: "Resume"
+        icon: "fas fa-file-pdf"
+        url: "your-dropbox-resume-link"
+      - label: "GitHub"
+        icon: "fab fa-github"
+        url: "https://github.com/Chmavo"
