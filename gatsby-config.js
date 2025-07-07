@@ -15,19 +15,19 @@ module.exports = {
     // Optional: Resume URL
     resume: `https://www.dropbox.com/scl/fi/9qizuhstcuv3zzmwzt2dm/Charles_Voelker_DataScienceManager_Resume_2025_05_08.pdf?rlkey=q5w0xlsy0b33qjiqp2ncsn4qp&st=arhijls8&dl=0`,
     // Content of the About Me section
-    about: `I'm a data science leader with deep expertise in scaling ML/AI systems at enterprise level. Over the past decade, I've transitioned from individual contributor to strategic executive, specializing in building world-class data science organizations. My leadership philosophy centers on technical excellence, talent development, and driving measurable business outcomes through innovative ML solutions.`,
+    about: `I'm a data science leader focused on scaling ML/AI systems at enterprise level. Over the past decade, I've moved from individual contributor to strategic executive, building high-performing data science teams. I focus on technical excellence, talent development, and delivering measurable business outcomes through ML solutions.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'AWS Fraud Prevention Platform',
         description:
-          'Led development of real-time fraud prevention platform protecting >90% of Fortune 500 businesses. Achieved 97% fraud reduction with $15M annual savings through advanced ML techniques.',
+          'Led development of real-time fraud prevention platform for enterprise clients. Achieved 97% fraud reduction with $15M annual savings through advanced ML techniques.',
         link: 'https://aws.amazon.com/fraud-prevention/',
       },
       {
         name: 'Generative AI Detection System',
         description:
-          'Lead AWS\'s account compromise detection strategy for Generative AI services, directing cross-functional team to reduce fraud by 92% on the service while maintaining seamless user experience through advanced deep learning models.',
+          'Lead AWS account compromise detection strategy for Generative AI services, directing cross-functional team to reduce fraud by 92% while maintaining low false positive rates.',
         link: 'https://aws.amazon.com/ai/',
       },
       {
@@ -41,7 +41,7 @@ module.exports = {
     experience: [
       {
         name: 'Amazon Web Services (AWS)',
-        description: 'Data Science Manager, AWS Fraud Prevention | May 2023 - Present\n\nI lead ML/AI initiatives for enterprise fraud prevention while managing a team of 5 data scientists. My organization has deployed 200+ machine learning models achieving 85% reduction in manual processes with 99% accuracy. I am responsible for leading strategy for AWS account compromise detection strategy for AWS\'s generative AI services, where we have decreased fraud events by 92%. I balance technical leadership with people management, implementing mentorship programs and cross-functional frameworks that improved deployment velocity by 40%.',
+        description: 'Data Science Manager, AWS Fraud Prevention | May 2023 - Present\n\nI lead ML/AI initiatives for enterprise fraud prevention while managing a team of 5 data scientists. We have deployed 200+ machine learning models achieving 85% reduction in manual processes with 99% accuracy. I lead AWS account compromise detection strategy for generative AI services, where we have decreased fraud events by 92%. I balance technical leadership with people management, implementing mentorship programs and cross-functional frameworks that improved deployment velocity by 40%.',
         link: 'https://aws.amazon.com/',
       },
       {
