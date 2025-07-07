@@ -48,7 +48,6 @@ export const pageQuery = graphql`
         github
         linkedin
         resume
-        bitbucket
         projects {
           name
           description
