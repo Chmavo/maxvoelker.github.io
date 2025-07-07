@@ -39,21 +39,21 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
-          {resume && (
+          {resume && (// First
             <li className={classes.item}>
               <a className={classes.link} href={resume} target="_blank" rel="noopener noreferrer">
                 Resume
               </a>
             </li>
           )}
-          {github && (
+          {github && (// Second
             <li className={classes.item}>
               <a className={classes.link} href={github} target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
             </li>
           )}
-          {linkedin && (
+          {linkedin && (// Third
             <li className={classes.item}>
               <a className={classes.link} href={linkedin} target="_blank" rel="noopener noreferrer">
                 LinkedIn
