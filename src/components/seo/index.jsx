@@ -33,6 +33,15 @@ const SEO = ({ description, lang, meta, title }) => {
     "image": `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`,
     "description": metaDescription,
     "jobTitle": "Data Science Manager",
+    "workLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      }
+    },
     "worksFor": {
       "@type": "Organization",
       "name": "Amazon Web Services"

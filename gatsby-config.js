@@ -11,7 +11,7 @@ module.exports = {
     // Author info for SEO
     author: `Max Voelker`,
     // Keywords for SEO
-    keywords: `data science manager, AWS fraud prevention, machine learning, artificial intelligence, data scientist, fraud detection, Amazon Web Services, ML engineer, data science leadership`,
+    keywords: `data science manager NYC, data science leader New York, AWS fraud prevention, machine learning manager NYC, artificial intelligence, data scientist New York City, fraud detection, Amazon Web Services, ML engineer NYC, data science leadership Manhattan, tech manager NYC`,
     // Social image
     image: `/static/b687663778d54912a47f50b65c825005/95f1e/profile.jpg`,
     // Optional: Github account URL
