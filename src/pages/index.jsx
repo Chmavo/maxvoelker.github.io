@@ -13,36 +13,20 @@ import SEO from '../components/seo';
 
 const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
-<<<<<<< HEAD
-  const projects = get(data, 'site.siteMetadata.projects', false);
-  const posts = data.allMarkdownRemark.edges;
-  const experience = get(data, 'site.siteMetadata.experience', false);
-  const skills = get(data, 'site.siteMetadata.skills', false);
-  const noBlog = !posts || !posts.length;
-=======
   const experience = get(data, 'site.siteMetadata.experience', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
   const projects = get(data, 'site.siteMetadata.projects', false);
->>>>>>> 4596e9a (Update role description to accurately reflect leading ML/AI initiatives for Fraud Prevention in AWS)
 
   return (
     <Layout>
       <SEO />
-<<<<<<< HEAD
-      <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
-=======
       <Header metadata={data.site.siteMetadata} noBlog={true} />
->>>>>>> 4596e9a (Update role description to accurately reflect leading ML/AI initiatives for Fraud Prevention in AWS)
       {about && <SectionAbout about={about} />}
       {experience && experience.length && (
         <SectionExperience experience={experience} />
       )}
       {skills && skills.length && <SectionSkills skills={skills} />}
       {projects && projects.length && <SectionProjects projects={projects} />}
-<<<<<<< HEAD
-      {!noBlog && <SectionBlog posts={posts} />}
-=======
->>>>>>> 4596e9a (Update role description to accurately reflect leading ML/AI initiatives for Fraud Prevention in AWS)
     </Layout>
   );
 };
