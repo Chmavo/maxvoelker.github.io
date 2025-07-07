@@ -15,6 +15,11 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
     linkContent = <a href={link}>{name}</a>;
   }
 
+  // Handle multi-line descriptions by splitting on \n
+  const descriptionParts = description.split('\n');
+  const titleAndDate = descriptionParts[0];
+  const narrative = descriptionParts.slice(1).join('\n').trim();
+
   return (
     <div className={classes.wrapper}>
       <h3
@@ -24,7 +29,12 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
       >
         {link ? linkContent : name}
       </h3>
-      <p className={classes.description}>{description}</p>
+      <p className={classes.description}>{titleAndDate}</p>
+      {narrative && (
+        <p className={classes.description} style={{ marginTop: '0.5rem' }}>
+          {narrative}
+        </p>
+      )}
     </div>
   );
 };
