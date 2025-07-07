@@ -27,7 +27,7 @@ module.exports = {
       {
         name: 'Generative AI Detection System',
         description:
-          'Directed cross-functional team in launching AWS Generative AI fraud detection system, reducing fraud by 92% while maintaining seamless user experience through advanced deep learning models.',
+          'Lead AWS\'s account compromise detection strategy for Generative AI services, directing cross-functional team to reduce fraud by 92% on the service while maintaining seamless user experience through advanced deep learning models.',
         link: 'https://aws.amazon.com/ai/',
       },
       {
@@ -41,7 +41,7 @@ module.exports = {
     experience: [
       {
         name: 'Amazon Web Services (AWS)',
-        description: 'Data Science Manager, AWS Fraud Prevention - May 2023 - Present\n\nI lead ML/AI initiatives protecting Fortune 500 businesses from fraud while managing and mentoring a team of 5 data scientists. My leadership contributed to deploying 200+ machine learning models achieving 85% reduction in manual work with 99% accuracy. I architect end-to-end fraud prevention solutions and helped launch AWS\'s Generative AI fraud detection capabilities, reducing fraud incidents by 92%. I balance technical involvement with people management, implementing mentorship programs and cross-functional frameworks that improved deployment velocity by 40%.',
+        description: 'Data Science Manager, AWS Fraud Prevention - May 2023 - Present\n\nI lead ML/AI initiatives protecting Fortune 500 businesses from fraud while managing and mentoring a team of 5 data scientists. My leadership contributed to deploying 200+ machine learning models achieving 85% reduction in manual work with 99% accuracy. I architect end-to-end fraud prevention solutions and lead AWS\'s account compromise detection strategy for Generative AI services, reducing fraud incidents by 92% on the service. I balance technical involvement with people management, implementing mentorship programs and cross-functional frameworks that improved deployment velocity by 40%.',
         link: 'https://aws.amazon.com/',
       },
       {
