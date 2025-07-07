@@ -36,6 +36,12 @@ module.exports = {
           'Built risk management platform for $32B portfolio at Fidelity, reducing false positives by 65% while achieving regulatory compliance through scalable ML infrastructure.',
         link: 'https://www.fidelity.com/',
       },
+      {
+        name: 'Data Exfiltration Detection Patent',
+        description:
+          'Invented and patented systems and methods for detecting anomalous data traffic over proxy servers using isolation forest algorithms and risk-based feature extraction. US Patent 10,826,927.',
+        link: 'https://patents.google.com/patent/US10826927B1/en',
+      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
