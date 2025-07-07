@@ -27,13 +27,13 @@ module.exports = {
       {
         name: 'AWS Fraud Prevention Platform',
         description:
-          'Led development of real-time fraud prevention platform for enterprise clients. Achieved 97% fraud reduction with $15M annual savings through advanced ML techniques.',
+          'Architected and led development of real-time fraud prevention platform serving enterprise clients at scale. Built comprehensive ML infrastructure supporting multiple fraud detection models.',
         link: 'https://aws.amazon.com/fraud-prevention/',
       },
       {
         name: 'Generative AI Detection System',
         description:
-          'Lead AWS account compromise detection strategy for Generative AI services, directing cross-functional team to reduce fraud by 92% while maintaining low false positive rates.',
+          'Designed detection strategy for AWS account compromise across Generative AI services, directing cross-functional engineering teams to implement robust fraud prevention controls.',
         link: 'https://aws.amazon.com/ai/',
       },
       {
