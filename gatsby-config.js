@@ -1,75 +1,85 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://monumental-chimera-b1ace3.netlify.app/`,
+    siteUrl: `https://chmavo.github.io/maxvoelker.github.io/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Max Voelker',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Max Voelker | Data Science Manager`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
-    // Optional: Twitter account handle
-    author: `@rfitzio`,
+    description: `Data Science Manager with 10+ years of experience leading ML/AI initiatives in fraud prevention and risk management.`,
     // Optional: Github account URL
-    github: `https://github.com/RyanFitzgerald`,
+    github: `https://github.com/Chmavo`,
     // Optional: LinkedIn account URL
-    linkedin: `https://github.com/RyanFitzgerald/devfolio`,
+    linkedin: `https://www.linkedin.com/in/cmaxvoelker`,
+    // Optional: Resume URL
+    resume: `https://www.dropbox.com/scl/fi/9qizuhstcuv3zzmwzt2dm/Charles_Voelker_DataScienceManager_Resume_2025_05_08.pdf?rlkey=q5w0xlsy0b33qjiqp2ncsn4qp&st=arhijls8&dl=0`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm passionate about using data science to solve real-world problems at scale. Currently at AWS, I lead ML/AI strategy for fraud prevention, where my team has deployed 200+ models that reduced manual work by 85% with over 99% accuracy. My background spans both technical leadership and hands-on development - from architecting real-time fraud prevention platforms protecting Fortune 500 businesses to mentoring data scientists through career growth.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'AWS Fraud Prevention Platform',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Led development of real-time fraud prevention platform protecting >90% of Fortune 500 businesses. Achieved 97% fraud reduction with $15M annual savings through advanced ML techniques.',
+        link: 'https://aws.amazon.com/fraud-prevention/',
       },
       {
-        name: 'ExtensionKit',
+        name: 'Generative AI Detection System',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://extensionkit.io/?ref=devfolio',
+          'Directed cross-functional team in launching AWS Generative AI fraud detection system, reducing fraud by 92% while maintaining seamless user experience through advanced deep learning models.',
+        link: 'https://aws.amazon.com/ai/',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Enterprise Risk Management Platform',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Built risk management platform for $32B portfolio at Fidelity, reducing false positives by 65% while achieving regulatory compliance through scalable ML infrastructure.',
+        link: 'https://www.fidelity.com/',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Amazon Web Services (AWS)',
+        description: 'Data Science Manager, AWS Fraud Prevention - May 2023 - Present',
+        link: 'https://aws.amazon.com/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Amazon Web Services (AWS)',
+        description: 'Data Scientist, AWS Fraud Prevention - May 2021 - April 2023',
+        link: 'https://aws.amazon.com/',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Fidelity Investments',
+        description: 'Senior Manager, Data Science - January 2018 - April 2021',
+        link: 'https://www.fidelity.com/',
+      },
+      {
+        name: 'Fidelity Investments',
+        description: 'Manager, Analytics & Insights - January 2016 - December 2017',
+        link: 'https://www.fidelity.com/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Machine Learning & AI',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Deep Neural Networks, Transformers, LLMs (GPT, BERT), Computer Vision, Anomaly Detection, Time Series Analysis',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'MLOps & Infrastructure',
+        description: 'MLflow, Kubeflow, SageMaker, CI/CD for ML, A/B Testing, Model Monitoring, Docker, Kubernetes',
       },
       {
-        name: 'Other',
+        name: 'Programming & Cloud',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Python, R, SQL, PySpark, AWS (EC2, S3, Lambda, EMR), Spark, Hadoop, Kafka, Airflow',
+      },
+      {
+        name: 'Leadership & Strategy',
+        description:
+          'Team Development, Technical Mentorship, Performance Management, Strategic Planning, Resource Allocation',
       },
     ],
   },
