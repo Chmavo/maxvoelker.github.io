@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Max Voelker | Data Science Manager`,
     // Description that goes under your name in main bio
-    description: `Data Science Manager with 10+ years of experience leading ML/AI initiatives in fraud prevention and risk management.`,
+    description: `Data Science Manager leading ML/AI initiatives for Fraud Prevention in Amazon Web Services with 10+ years of experience in ML/AI and risk management.`,
     // Optional: Github account URL
     github: `https://github.com/Chmavo`,
     // Optional: LinkedIn account URL
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: Resume URL
     resume: `https://www.dropbox.com/scl/fi/9qizuhstcuv3zzmwzt2dm/Charles_Voelker_DataScienceManager_Resume_2025_05_08.pdf?rlkey=q5w0xlsy0b33qjiqp2ncsn4qp&st=arhijls8&dl=0`,
     // Content of the About Me section
-    about: `I'm a data science leader focused on scaling ML/AI systems at enterprise level. Over the past decade, I've moved from individual contributor to strategic executive, building high-performing data science teams. I focus on technical excellence, talent development, and delivering measurable business outcomes through ML solutions.`,
+    about: `I'm passionate about using data science to solve real-world problems at scale. At Amazon Web Services, I lead ML/AI initiatives for Fraud Prevention where my team has deployed 200+ ML models that reduced manual work by 85% with over 99% accuracy. My background spans both technical leadership and hands-on development - from architecting real-time fraud prevention platforms protecting Fortune 500 businesses to mentoring data scientists through career growth.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
