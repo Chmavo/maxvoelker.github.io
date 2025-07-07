@@ -15,7 +15,7 @@ module.exports = {
     // Optional: Resume URL
     resume: `https://www.dropbox.com/scl/fi/9qizuhstcuv3zzmwzt2dm/Charles_Voelker_DataScienceManager_Resume_2025_05_08.pdf?rlkey=q5w0xlsy0b33qjiqp2ncsn4qp&st=arhijls8&dl=0`,
     // Content of the About Me section
-    about: `I'm passionate about using data science to solve real-world problems at scale. My background spans both technical leadership and hands-on development - from architecting machine learning platforms to mentoring data scientists through career growth. I focus on building high-performing teams and translating complex ML concepts into business value across fraud prevention, risk management, and analytics domains.`,
+    about: `I'm a data science leader with deep expertise in scaling ML/AI systems at enterprise level. Over the past decade, I've transitioned from individual contributor to strategic executive, specializing in building world-class data science organizations. My leadership philosophy centers on technical excellence, talent development, and driving measurable business outcomes through innovative ML solutions.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -41,22 +41,22 @@ module.exports = {
     experience: [
       {
         name: 'Amazon Web Services (AWS)',
-        description: 'Data Science Manager, AWS Fraud Prevention - May 2023 - Present\n\nI lead ML/AI initiatives protecting Fortune 500 businesses from fraud while managing and mentoring a team of 5 data scientists. My leadership contributed to deploying 200+ machine learning models achieving 85% reduction in manual work with 99% accuracy. I architect end-to-end fraud prevention solutions and lead AWS\'s account compromise detection strategy for Generative AI services, reducing fraud incidents by 92% on the service. I balance technical involvement with people management, implementing mentorship programs and cross-functional frameworks that improved deployment velocity by 40%.',
+        description: 'Data Science Manager, AWS Fraud Prevention - May 2023 - Present\n\nI lead ML/AI initiatives for enterprise fraud prevention while managing a team of 5 data scientists. My organization has deployed 200+ machine learning models achieving 85% reduction in manual processes with 99% accuracy. I architect end-to-end fraud prevention solutions and lead AWS\'s account compromise detection strategy for Generative AI services, reducing fraud incidents by 92% on the service. I balance technical leadership with people management, implementing mentorship programs and cross-functional frameworks that improved deployment velocity by 40%.',
         link: 'https://aws.amazon.com/',
       },
       {
         name: 'Amazon Web Services (AWS)',
-        description: 'Data Scientist, AWS Fraud Prevention - May 2021 - April 2023\n\nI built the foundation of our fraud prevention platform, designing and implementing ML models using deep neural networks and transformers to detect fraud patterns across AWS services. I developed a real-time classifier processing 1.1 million events per second with sub-100ms latency. My work contributed to $15M in annual savings for AWS, achieving 97% fraud detection accuracy while reducing false positives by 60%. I established MLOps best practices and CI/CD pipelines that reduced deployment time from weeks to days.',
+        description: 'Data Scientist, AWS Fraud Prevention - May 2021 - April 2023\n\nI built the foundational fraud prevention platform, designing and implementing ML models using deep neural networks and transformers to detect fraud patterns across AWS services. I developed a real-time classifier processing 1.1 million events per second with sub-100ms latency. My work contributed to $15M in annual cost savings for AWS, achieving 97% fraud detection accuracy while reducing false positives by 60%. I established MLOps best practices and CI/CD pipelines that reduced deployment time from weeks to days.',
         link: 'https://aws.amazon.com/',
       },
       {
         name: 'Fidelity Investments',
-        description: 'Senior Manager, Data Science - January 2018 - April 2021\n\nI led risk management transformation for a $32 billion investment portfolio, building and managing a team of 5 data scientists. My team developed a comprehensive risk management platform that reduced false positives by 65% while ensuring regulatory compliance. I pioneered alternative data sources and advanced modeling techniques, creating predictive models that improved risk-adjusted returns by 18%. I regularly presented analytical findings to C-level executives and regulatory bodies, implementing a model governance framework that became the template for other business units.',
+        description: 'Senior Manager, Data Science - January 2018 - April 2021\n\nI led risk management transformation for a $32 billion investment portfolio, building and managing a team of 5 data scientists. My team developed a comprehensive risk management platform that reduced false positives by 65% while ensuring regulatory compliance. I pioneered alternative data sources and advanced modeling techniques, creating predictive models that improved risk-adjusted returns by 18%. I presented analytical findings to C-level executives and regulatory bodies, implementing a model governance framework that was adopted across other business units.',
         link: 'https://www.fidelity.com/',
       },
       {
         name: 'Fidelity Investments',
-        description: 'Manager, Analytics & Insights - January 2016 - December 2017\n\nI managed a team of 5 analysts generating insights from Fidelity\'s customer and market data. I led development of customer segmentation models that improved marketing campaign effectiveness by 35% and increased customer lifetime value by 22%. My team built predictive analytics that improved customer retention rates by 28%. I established automated reporting frameworks using Tableau and Python, reducing manual work by 70%. I initiated Fidelity\'s first machine learning pilot projects.',
+        description: 'Manager, Analytics & Insights - January 2016 - December 2017\n\nI managed a team of 5 analysts generating insights from Fidelity\'s investment and risk data. I led development of risk assessment models and portfolio analytics that improved risk-adjusted returns and enhanced investment decision-making processes. My team built predictive analytics for risk management and portfolio optimization. I established automated reporting frameworks using Tableau and Python, reducing manual processes by 70%. I initiated Fidelity\'s first machine learning pilot projects in risk management.',
         link: 'https://www.fidelity.com/',
       },
     ],
