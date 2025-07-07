@@ -46,17 +46,17 @@ module.exports = {
       },
       {
         name: 'Amazon Web Services (AWS)',
-        description: 'Data Scientist, AWS Fraud Prevention | May 2021 - April 2023\n\nI built the foundational fraud prevention platform, designing and implementing ML models using deep neural networks and transformers to detect fraud patterns across AWS services. I developed a real-time classifier processing 1.1 million events per second with sub-100ms latency. My work contributed to $15M in annual cost savings for AWS, achieving 97% fraud detection accuracy while reducing false positives by 60%. I established MLOps best practices and CI/CD pipelines that reduced deployment time from weeks to days.',
+        description: 'Data Scientist, AWS Fraud Prevention | May 2021 - April 2023\n\nI built the foundational fraud prevention platform using deep neural networks and transformers to detect fraud patterns across AWS services. I developed a real-time classifier processing 1.1 million events per second with sub-100ms latency. My work contributed to $15M in annual cost savings for AWS, achieving 97% fraud detection accuracy while reducing false positives by 60%. I established MLOps best practices and CI/CD pipelines that reduced deployment time from weeks to days.',
         link: 'https://aws.amazon.com/',
       },
       {
         name: 'Fidelity Investments',
-        description: 'Senior Manager, Data Science | January 2018 - April 2021\n\nI led risk management transformation for a $32 billion investment portfolio, building and managing a team of 5 data scientists. My team developed a comprehensive risk management platform that reduced false positives by 65% while ensuring regulatory compliance. I pioneered alternative data sources and advanced modeling techniques, creating predictive models that improved risk-adjusted returns by 18%. I presented analytical findings to C-level executives and regulatory bodies, implementing a model governance framework that was adopted across other business units.',
+        description: 'Senior Manager, Data Science | January 2018 - April 2021\n\nI led risk management transformation for a $32 billion investment portfolio while building and managing a team of 5 data scientists. My team developed a comprehensive risk management platform that reduced false positives by 65% while ensuring regulatory compliance. I pioneered alternative data sources and advanced modeling techniques that improved risk-adjusted returns by 18%. I presented analytical findings to C-level executives and regulatory bodies, then implemented a model governance framework that was adopted across other business units.',
         link: 'https://www.fidelity.com/',
       },
       {
         name: 'Fidelity Investments',
-        description: 'Manager, Analytics & Insights | January 2016 - December 2017\n\nI managed a team of 5 analysts generating insights from Fidelity\'s investment and risk data. I led development of risk assessment models and portfolio analytics that improved risk-adjusted returns and enhanced investment decision-making processes. My team built predictive analytics for risk management and portfolio optimization. I established automated reporting frameworks using Tableau and Python, reducing manual processes by 70%. I initiated Fidelity\'s first machine learning pilot projects in risk management.',
+        description: 'Manager, Analytics & Insights | January 2016 - December 2017\n\nI managed a team of 5 analysts generating insights from Fidelity\'s investment and risk data. I led development of risk assessment models and portfolio analytics that improved risk-adjusted returns and enhanced investment decision-making processes. My team built predictive analytics for risk management and portfolio optimization. I established automated reporting frameworks using Tableau and Python, which reduced manual processes by 70%. I initiated Fidelity\'s first machine learning pilot projects in risk management.',
         link: 'https://www.fidelity.com/',
       },
     ],
