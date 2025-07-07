@@ -41,7 +41,7 @@ module.exports = {
     experience: [
       {
         name: 'Amazon Web Services (AWS)',
-        description: 'Data Science Manager, AWS Fraud Prevention | May 2023 - Present\n\nI lead ML/AI initiatives for enterprise fraud prevention while managing a team of 5 data scientists. My organization has deployed 200+ machine learning models achieving 85% reduction in manual processes with 99% accuracy. I focus on AWS\'s account compromise detection strategy for Generative AI services, which reduced fraud incidents by 92%. I balance technical leadership with people management, implementing mentorship programs and cross-functional frameworks that improved deployment velocity by 40%.',
+        description: 'Data Science Manager, AWS Fraud Prevention | May 2023 - Present\n\nI lead ML/AI initiatives for enterprise fraud prevention while managing a team of 5 data scientists. My organization has deployed 200+ machine learning models achieving 85% reduction in manual processes with 99% accuracy. I am responsible for leading strategy for AWS account compromise detection strategy for AWS\'s generative AI services, where we have decreased fraud events by 92%. I balance technical leadership with people management, implementing mentorship programs and cross-functional frameworks that improved deployment velocity by 40%.',
         link: 'https://aws.amazon.com/',
       },
       {
