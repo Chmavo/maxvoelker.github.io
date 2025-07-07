@@ -46,7 +46,7 @@ module.exports = {
       },
       {
         name: 'Amazon Web Services (AWS)',
-        description: 'Data Scientist, AWS Fraud Prevention | May 2021 - April 2023\n\nI contributed to building the foundational fraud prevention platform, designing ML models using deep neural networks and transformers to detect fraud patterns across AWS services. I developed a real-time classifier processing 1.1 million events per second with sub-100ms latency. My work contributed to $15M in annual cost savings for AWS, achieving 97% fraud detection accuracy while reducing false positives by 60%. I established MLOps best practices and CI/CD pipelines that reduced deployment time from weeks to days.',
+        description: 'Data Scientist, AWS Fraud Prevention | May 2021 - April 2023\n\nI contributed to building the real time AWS account compromise prevention platform, designing ML models using deep neural networks and transformers to detect fraud patterns across AWS services. I developed a real-time classifier processing 1.1 million events per second with sub-100ms latency. My work contributed to $15M in annual cost savings for AWS, achieving 97% fraud detection accuracy while reducing false positives by 60%. I established MLOps best practices and CI/CD pipelines that reduced deployment time from weeks to days.',
         link: 'https://aws.amazon.com/',
       },
       {
