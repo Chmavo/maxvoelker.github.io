@@ -39,6 +39,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
+          {resume && (
+            <li className={classes.item}>
+              <a className={classes.link} href={resume} target="_blank" rel="noopener noreferrer">
+                Resume
+              </a>
+            </li>
+          )}
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github} target="_blank" rel="noopener noreferrer">
@@ -50,13 +57,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             <li className={classes.item}>
               <a className={classes.link} href={linkedin} target="_blank" rel="noopener noreferrer">
                 LinkedIn
-              </a>
-            </li>
-          )}
-          {resume && (
-            <li className={classes.item}>
-              <a className={classes.link} href={resume} target="_blank" rel="noopener noreferrer">
-                Resume
               </a>
             </li>
           )}
