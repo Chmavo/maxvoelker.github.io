@@ -1,8 +1,7 @@
 module.exports = {
-  pathPrefix: "/maxvoelker.github.io",
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://chmavo.github.io/maxvoelker.github.io/`,
+    siteUrl: `https://maxvoelker.github.io/`,
     // Your Name
     name: 'Max Voelker',
     // Main Site Title
