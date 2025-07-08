@@ -94,12 +94,12 @@ module.exports = {
       },
       {
         name: 'MLOps & Infrastructure',
-        description: 'MLflow, Kubeflow, SageMaker, Weights & Biases, DVC, CI/CD for ML, A/B Testing, Model Monitoring, Docker, Kubernetes',
+        description: 'MLflow, Kubeflow, SageMaker, CI/CD for ML, A/B Testing, Model Monitoring, Docker, Kubernetes',
       },
       {
         name: 'Programming & Cloud',
         description:
-          'Python, SQL, PySpark, AWS (Bedrock, SageMaker, Lambda, S3), Snowflake, Apache Spark, Kafka, Airflow',
+          'Python, SQL, PySpark, AWS, Apache Spark',
       },
       {
         name: 'Leadership & Strategy',
