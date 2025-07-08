@@ -90,21 +90,21 @@ module.exports = {
       {
         name: 'Machine Learning & AI',
         description:
-          'PyTorch, TensorFlow, Transformers, LLMs (GPT-4, Claude, BERT), Generative AI, Computer Vision, NLP, Anomaly Detection',
+          'PyTorch, TensorFlow, LLMs (GPT-4, Claude, BERT), RAG, Generative AI, Computer Vision, NLP, Anomaly Detection',
       },
       {
         name: 'MLOps & Infrastructure',
-        description: 'MLflow, Kubeflow, SageMaker, CI/CD for ML, A/B Testing, Model Monitoring, Docker, Kubernetes',
+        description: 'Feature Stores, MLflow, Kubeflow, SageMaker, CI/CD for ML, A/B Testing, Model Monitoring, Docker, Kubernetes',
       },
       {
         name: 'Programming & Cloud',
         description:
-          'Python, SQL, PySpark, AWS, Apache Spark',
+          'Python, SQL, PySpark, AWS, Apache Spark, Git/Version Control',
       },
       {
         name: 'Leadership & Strategy',
         description:
-          'Team Development, Technical Mentorship, Performance Management, Strategic Planning, Resource Allocation, Cross-functional Collaboration',
+          'Team Development, Technical Mentorship, Performance Management, Strategic Planning, Risk Management, Cost Optimization, Cross-functional Collaboration',
       },
     ],
   },
