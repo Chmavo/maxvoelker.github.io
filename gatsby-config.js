@@ -99,7 +99,7 @@ module.exports = {
       {
         name: 'Programming & Cloud',
         description:
-          'Python, SQL, PySpark, AWS (Bedrock, SageMaker, Lambda, S3), Databricks, Snowflake, Apache Spark, Kafka, Airflow',
+          'Python, SQL, PySpark, AWS (Bedrock, SageMaker, Lambda, S3), Snowflake, Apache Spark, Kafka, Airflow',
       },
       {
         name: 'Leadership & Strategy',
