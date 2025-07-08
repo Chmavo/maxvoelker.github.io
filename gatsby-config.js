@@ -90,7 +90,7 @@ module.exports = {
       {
         name: 'Machine Learning & AI',
         description:
-          'PyTorch, TensorFlow, LLMs (GPT-4, Claude, BERT), RAG, Generative AI, Computer Vision, NLP, Anomaly Detection',
+          'PyTorch, TensorFlow, LLMs (GPT-4, Claude, BERT), RAG, Generative AI, Anomaly Detection',
       },
       {
         name: 'MLOps & Infrastructure',
