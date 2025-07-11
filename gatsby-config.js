@@ -1,110 +1,75 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://maxvoelker.com`,
+    siteUrl: `https://monumental-chimera-b1ace3.netlify.app/`,
     // Your Name
-    name: 'Max Voelker',
+    name: 'Ryan Fitzgerald',
     // Main Site Title
-    title: `Max Voelker | Data Science Manager`,
+    title: `Ryan Fitzgerald | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `Data Science Manager leading ML/AI initiatives for Fraud Prevention in Amazon Web Services with 10+ years of experience in ML/AI and risk management.`,
-    // Author info for SEO
-    author: `Max Voelker`,
-    // Keywords for SEO
-    keywords: `data science manager NYC, data science leader New York, AWS fraud prevention, machine learning manager NYC, artificial intelligence, data scientist New York City, fraud detection, Amazon Web Services, ML engineer NYC, data science leadership Manhattan, tech manager NYC`,
-    // Social image
-    image: `/static/b687663778d54912a47f50b65c825005/95f1e/profile.jpg`,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    // Optional: Twitter account handle
+    author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/Chmavo`,
+    github: `https://github.com/RyanFitzgerald`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/cmaxvoelker`,
-    // Optional: Resume URL
-    resume: `https://www.dropbox.com/scl/fi/9qizuhstcuv3zzmwzt2dm/Charles_Voelker_DataScienceManager_Resume_2025_05_08.pdf?rlkey=q5w0xlsy0b33qjiqp2ncsn4qp&st=arhijls8&dl=0`,
+    linkedin: `https://github.com/RyanFitzgerald/devfolio`,
     // Content of the About Me section
-    about: `I lead high-performing data science teams that deliver ML solutions at massive scale. Over the past decade, I've transitioned from individual contributor to driving technical strategy and developing talent. At Amazon Web Services, I lead ML/AI initiatives for AWS Fraud Prevention protecting over 90% of Fortune 500 businesses. My background spans both technical leadership and hands-on development - from architecting real-time fraud prevention platforms to mentoring data scientists through career growth.`,
+    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'AWS Fraud Prevention Platform',
+        name: 'Devfolio',
         description:
-          'Architected and led development of real-time fraud prevention platform serving enterprise clients at scale. Built comprehensive ML infrastructure supporting multiple fraud detection models.',
-        link: 'https://aws.amazon.com/fraud-prevention/',
+          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Generative AI Detection System',
+        name: 'ExtensionKit',
         description:
-          'Designed detection strategy for AWS account compromise across Generative AI services, directing cross-functional engineering teams to implement robust fraud prevention controls.',
-        link: 'https://aws.amazon.com/ai/',
+          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
+        link: 'https://extensionkit.io/?ref=devfolio',
       },
       {
-        name: 'Enterprise Risk Management Platform',
+        name: 'Another Cool Project',
         description:
-          'Built risk management platform for $32B portfolio at Fidelity, reducing false positives by 65% while achieving regulatory compliance through scalable ML infrastructure.',
-        link: 'https://www.fidelity.com/',
-      },
-      {
-        name: 'Data Exfiltration Detection Patent',
-        description:
-          'Invented and patented systems and methods for detecting anomalous data traffic over proxy servers using isolation forest algorithms and risk-based feature extraction. US Patent 10,826,927.',
-        link: 'https://patents.google.com/patent/US10826927B1/en',
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Amazon Web Services (AWS)',
-        description: 'Data Science Manager, AWS Fraud Prevention | May 2023 - Present\n\nI lead ML/AI initiatives for AWS Fraud Prevention while managing a team of 5 data scientists. We have deployed 200+ machine learning models achieving 85% reduction in manual processes with 99% accuracy. I partner closely with product and business stakeholders to shape fraud prevention strategy, translating complex business requirements into ML solutions that protect both customer workloads and the AWS platform. I lead AWS account compromise detection, mitigation, and prevention strategy for generative AI services and the SageMaker ML Platform, where we have decreased fraud events by 92%. I balance technical leadership with people management, implementing mentorship programs and cross-functional frameworks that improved deployment velocity by 40%.',
-        link: 'https://aws.amazon.com/',
+        name: 'Acme Corp',
+        description: 'Full-Stack Developer, February 2020 - Present',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Amazon Web Services (AWS)',
-        description: 'Data Scientist, AWS Fraud Prevention | May 2021 - April 2023\n\nI contributed to building the real time AWS account compromise prevention platform, designing ML models using deep neural networks and transformers to detect fraud patterns across AWS services. I developed a real-time classifier processing 1.1 million events per second with sub-100ms latency. My work contributed to $15M in annual cost savings for AWS, achieving 97% fraud detection accuracy while reducing false positives by 60%. I established MLOps best practices and CI/CD pipelines that reduced deployment time from weeks to days.',
-        link: 'https://aws.amazon.com/',
+        name: 'Globex Corp',
+        description: 'Full-Stack Developer, December 2017 - February 2020',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Fidelity Investments',
-        description: 'Senior Manager, Data Science | January 2018 - April 2021\n\nI led risk management transformation for a $32 billion investment portfolio while building and managing a team of 5 data scientists. My team developed a comprehensive risk management platform that reduced false positives by 65% while ensuring regulatory compliance. I pioneered alternative data sources and advanced modeling techniques that improved risk-adjusted returns by 18%. I presented analytical findings to C-level executives and regulatory bodies, then implemented a model governance framework that was adopted across other business units.',
-        link: 'https://www.fidelity.com/',
-      },
-      {
-        name: 'Fidelity Investments',
-        description: 'Manager, Analytics & Insights | January 2016 - December 2017\n\nI managed a team of 5 analysts generating insights from Fidelity\'s investment and risk data. I led development of risk assessment models and portfolio analytics that improved risk-adjusted returns and enhanced investment decision-making processes. My team built predictive analytics for risk management and portfolio optimization. I established automated reporting frameworks using Tableau and Python, which reduced manual processes by 70%. I initiated Fidelity\'s first machine learning pilot projects in risk management.',
-        link: 'https://www.fidelity.com/',
-      },
-    ],
-    // Optional: List your education, they must have `name` and `description`. `link` is optional.
-    education: [
-      {
-        name: 'New York University, Leonard N. Stern School of Business',
-        description: 'Master of Business Administration | May 2019\n\nSpecializations: Business Analytics, Quantitative Finance, Financial Technology',
-        link: 'https://www.stern.nyu.edu/',
-      },
-      {
-        name: 'Northeastern University, D\'Amore-McKim School of Business',
-        description: 'Bachelor of Science in Business Administration | December 2013\n\nSpecializations: Information Systems, Marketing',
-        link: 'https://www.northeastern.edu/',
+        name: 'Hooli',
+        description: 'Full-Stack Developer, May 2015 - December 2017',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Machine Learning & AI',
+        name: 'Languages & Frameworks',
         description:
-          'PyTorch, TensorFlow, LLMs (GPT-4, Claude, BERT), RAG, Generative AI, Anomaly Detection',
+          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
       },
       {
-        name: 'MLOps & Infrastructure',
-        description: 'Feature Stores, MLflow, Kubeflow, SageMaker, CI/CD for ML, A/B Testing, Model Monitoring, Docker, Kubernetes',
+        name: 'Databases',
+        description: 'MongoDB, PostreSQL, MySQL',
       },
       {
-        name: 'Programming & Cloud',
+        name: 'Other',
         description:
-          'Python, SQL, PySpark, AWS, Apache Spark, Git/Version Control',
-      },
-      {
-        name: 'Leadership & Strategy',
-        description:
-          'Team Development, Technical Mentorship, Performance Management, Strategic Planning, Risk Management, Cost Optimization, Cross-functional Collaboration',
+          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
       },
     ],
   },
@@ -208,28 +173,25 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "Max Voelker's RSS Feed",
+            title: "Your Site's RSS Feed",
           },
         ],
       },
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingIds: ['G-YF8XCQR5Q8'],
-        pluginConfig: {
-          head: true,
-        },
+        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Max Voelker Portfolio`,
-        short_name: `Max Voelker`,
+        name: `devfolio`,
+        short_name: `devfolio`,
         start_url: `/`,
-        background_color: `#374151`,
-        theme_color: `#374151`,
+        background_color: `#663399`,
+        theme_color: `#663399`, // This color appears on mobile
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
       },
