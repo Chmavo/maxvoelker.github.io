@@ -226,6 +226,12 @@ module.exports = {
         trackingIds: ['G-YF8XCQR5Q8'],
         pluginConfig: {
           head: true,
+          respectDNT: true,
+          exclude: ['/preview/**', '/do-not-track/me/too/'],
+        },
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
         },
       },
     },
