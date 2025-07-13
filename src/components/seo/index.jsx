@@ -12,6 +12,10 @@ const SEO = ({ description, lang, meta, title }) => {
             title
             description
             author
+            siteUrl
+            image
+            github
+            linkedin
           }
         }
       }
@@ -46,6 +50,14 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          property: `og:url`,
+          content: site.siteMetadata.siteUrl,
+        },
+        {
+          property: `og:image`,
+          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`,
+        },
+        {
           property: `twitter:card`,
           content: `summary`,
         },
@@ -62,7 +74,21 @@ const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": site.siteMetadata.author,
+          "url": site.siteMetadata.siteUrl,
+          "sameAs": [
+            site.siteMetadata.github,
+            site.siteMetadata.linkedin
+          ].filter(Boolean),
+          "description": metaDescription
+        })}
+      </script>
+    </Helmet>
   );
 };
 

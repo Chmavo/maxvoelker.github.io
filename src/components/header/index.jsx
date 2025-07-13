@@ -27,7 +27,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           <StaticImage
             className={classes.image}
             src="../../images/profile_max.jpg"
-            alt={metadata.name}
+            alt={`${metadata.name} - ${metadata.description}`}
             placeholder="dominantColor"
             layout="fullWidth"
           />
