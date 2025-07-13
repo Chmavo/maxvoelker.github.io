@@ -13,7 +13,7 @@ module.exports = {
     // Keywords for SEO
     keywords: `data science manager NYC, data science leader New York, AWS fraud prevention, machine learning manager NYC, artificial intelligence, data scientist New York City, fraud detection, Amazon Web Services, ML engineer NYC, data science leadership Manhattan, tech manager NYC`,
     // Social image
-    image: `/src/images/profile_max.jpg`,
+    image: `src/images/profile_max.jpg`,
     // Optional: Github account URL
     github: `https://github.com/Chmavo`,
     // Optional: LinkedIn account URL
