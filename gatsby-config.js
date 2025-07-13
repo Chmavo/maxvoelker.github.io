@@ -13,7 +13,7 @@ module.exports = {
     // Keywords for SEO
     keywords: `data science manager NYC, data science leader New York, AWS fraud prevention, machine learning manager NYC, artificial intelligence, data scientist New York City, fraud detection, Amazon Web Services, ML engineer NYC, data science leadership Manhattan, tech manager NYC`,
     // Social image
-    image: `/static/b687663778d54912a47f50b65c825005/95f1e/profile.jpg`,
+    image: `/src/images/profile_max.jpg`,
     // Optional: Github account URL
     github: `https://github.com/Chmavo`,
     // Optional: LinkedIn account URL
@@ -231,7 +231,7 @@ module.exports = {
         background_color: `#374151`,
         theme_color: `#374151`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/profile_max.jpg`,
       },
     },
   ],
