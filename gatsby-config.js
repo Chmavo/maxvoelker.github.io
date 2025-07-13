@@ -72,6 +72,19 @@ module.exports = {
         link: 'https://www.fidelity.com/',
       },
     ],
+    // Optional: List your education, they must have `name` and `description`. `link` is optional.
+    education: [
+      {
+        name: 'New York University, Leonard N. Stern School of Business',
+        description: 'Master of Business Administration | May 2019\n\nSpecializations: Business Analytics, Quantitative Finance, Financial Technology',
+        link: 'https://www.stern.nyu.edu/',
+      },
+      {
+        name: 'Northeastern University, D\'Amore-McKim School of Business',
+        description: 'Bachelor of Science in Business Administration | December 2013\n\nSpecializations: Information Systems, Marketing',
+        link: 'https://www.northeastern.edu/',
+      },
+    ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
