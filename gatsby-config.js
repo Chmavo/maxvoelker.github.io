@@ -19,7 +19,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/cmaxvoelker`,
     // Optional: Resume URL
-    resume: `https://www.dropbox.com/scl/fi/7v9lwzp0wrug8b6hks3zl/Max-Voelker_Resume_July_2025.pdf?rlkey=w2jrsngp7ciaai78aa25rop6g&st=9u6nlvrg&dl=0`,
+    resume: `https://www.dropbox.com/scl/fi/xi9jjxhcarkdy50jx2tm3/Max_Voelker_Resume_July_2025.pdf?rlkey=cme9i5ae8nz5d0gqzsevbn7cs&st=tnh9kd7y&dl=0`,
     // Content of the About Me section
     about: `I'm a data science leader focused on building ML/AI systems at massive scale to solve complex business problems. Over the past decade, I've moved from individual contributor to strategic executive, building high-performing data science teams. I focus on technical excellence, talent development, and delivering measurable outcomes through ML solutions.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
