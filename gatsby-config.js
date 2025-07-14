@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Max Voelker`,
     // Description that goes under your name in main bio
-    description: `Leader of ML/AI initiatives for Fraud Prevention at Amazon Web Services with 10+ years of experience in ML/AI and risk management.`,
+    description: `Leader of ML/AI initiatives for Fraud Prevention at Amazon Web Services with 10+ years of experience in Data Science and risk management.`,
     // Author info for SEO
     author: `Max Voelker`,
     // Keywords for SEO
