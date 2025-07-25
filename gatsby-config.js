@@ -54,7 +54,7 @@ module.exports = {
       {
         name: 'Amazon Web Services (AWS)',
         description:
-          'Data Science Manager, AWS Fraud Prevention | May 2023 - Present\nI lead ML/AI initiatives for enterprise fraud prevention while managing a team of 5 data scientists. We have deployed 200+ machine learning models that significantly increased automation while maintaining high accuracy. I direct AWS account compromise detection strategy for generative AI services and balance technical leadership with people management, implementing mentorship programs and cross-functional frameworks that reduced deployment time from weeks to days.',
+          'Data Science Manager, AWS Fraud Prevention | May 2023 - Present\nI lead ML/AI initiatives for enterprise fraud prevention while managing a team of data scientists and business analysts. We have deployed 200+ machine learning models that significantly increased automation while maintaining high accuracy. I direct AWS account compromise detection strategy for generative AI services and balance technical leadership with people management, implementing mentorship programs and cross-functional frameworks that reduced deployment time from weeks to days.',
         link: 'https://aws.amazon.com/',
       },
       {
