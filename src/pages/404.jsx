@@ -9,9 +9,9 @@ const classes = {
   link: 'underline',
 };
 
-const NotFoundPage = () => (
+const NotFoundPage = ({ location }) => (
   <Layout>
-    <SEO title="Not found" />
+    <SEO title="Not found" pathname={location?.pathname} />
     <h1 className={classes.title}>404: Not Found</h1>
     <p>
       You just hit a route that doesn't exist.{' '}

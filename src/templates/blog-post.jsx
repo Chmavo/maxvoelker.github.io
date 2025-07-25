@@ -12,13 +12,13 @@ const classes = {
   date: 'text-gray-600 font-light',
 };
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, location }) => {
   const post = data.markdownRemark;
 
   return (
     <Layout>
       <Header metadata={data.site.siteMetadata} />
-      <SEO title={post.frontmatter.title} />
+      <SEO title={post.frontmatter.title} pathname={location.pathname} />
       <h1 className={classes.title}>{post.frontmatter.title}</h1>
       <p className={classes.date}>
         Posted on {moment(post.frontmatter.date).format('MMMM D, YYYY')}

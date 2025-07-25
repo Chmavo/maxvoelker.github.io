@@ -23,7 +23,7 @@ const Index = ({ data }) => {
 
   return (
     <Layout>
-      <SEO />
+      <SEO pathname="/" />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
       {about && <SectionAbout about={about} />}
       {experience && experience.length && (

@@ -3,8 +3,8 @@ import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-const SEO = ({ description, lang, meta, title }) => {
-  const { site } = useStaticQuery(
+const SEO = ({ description, lang, meta, title, pathname }) => {
+  const { site, socialImage } = useStaticQuery(
     graphql`
       query {
         site {
@@ -18,6 +18,14 @@ const SEO = ({ description, lang, meta, title }) => {
             linkedin
           }
         }
+        socialImage: file(relativePath: { eq: "profile_max.jpg" }) {
+          childImageSharp {
+            gatsbyImageData(width: 1200, height: 630, layout: FIXED)
+            resize(width: 1200, height: 630) {
+              src
+            }
+          }
+        }
       }
     `
   );
@@ -25,6 +33,7 @@ const SEO = ({ description, lang, meta, title }) => {
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata?.title;
   const finalTitle = title ? `${title} | ${defaultTitle}` : defaultTitle;
+  const canonicalUrl = `${site.siteMetadata.siteUrl}${pathname || ''}`;
 
   return (
     <Helmet
@@ -51,11 +60,11 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:url`,
-          content: site.siteMetadata.siteUrl,
+          content: canonicalUrl,
         },
         {
           property: `og:image`,
-          content: `${site.siteMetadata.siteUrl}/${site.siteMetadata.image}`,
+          content: `${site.siteMetadata.siteUrl}${socialImage?.childImageSharp?.resize?.src || '/favicon-32x32.png'}`,
         },
         {
           property: `twitter:card`,
@@ -80,7 +89,8 @@ const SEO = ({ description, lang, meta, title }) => {
           "@context": "https://schema.org",
           "@type": "Person",
           "name": site.siteMetadata.author,
-          "url": site.siteMetadata.siteUrl,
+          "url": canonicalUrl,
+          "image": `${site.siteMetadata.siteUrl}${socialImage?.childImageSharp?.resize?.src || '/favicon-32x32.png'}`,
           "sameAs": [
             site.siteMetadata.github,
             site.siteMetadata.linkedin
@@ -88,6 +98,7 @@ const SEO = ({ description, lang, meta, title }) => {
           "description": metaDescription
         })}
       </script>
+      <link rel="canonical" href={canonicalUrl} />
     </Helmet>
   );
 };
@@ -103,6 +114,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string,
+  pathname: PropTypes.string,
 };
 
 export default SEO;
