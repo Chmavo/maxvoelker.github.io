@@ -54,25 +54,25 @@ module.exports = {
       {
         name: 'Amazon Web Services (AWS)',
         description:
-          'Data Science Manager, AWS Fraud Prevention | May 2023 - Present\nI lead ML/AI initiatives for enterprise fraud prevention while managing a team of data scientists and business analysts. We have deployed 200+ machine learning models that significantly increased automation while maintaining high accuracy. I direct AWS account compromise detection strategy for generative AI services and balance technical leadership with people management, implementing mentorship programs and cross-functional frameworks that reduced deployment time from weeks to days.',
+          'Data Science Manager, AWS Fraud Prevention | 2023 - Present\nI lead ML/AI initiatives for enterprise fraud prevention while managing a team of data scientists and business analysts. We have deployed 200+ machine learning models that significantly increased automation while maintaining high accuracy. I direct AWS account compromise detection strategy for generative AI services and balance technical leadership with people management, implementing mentorship programs and cross-functional frameworks that reduced deployment time from weeks to days.',
         link: 'https://aws.amazon.com/',
       },
       {
         name: 'Amazon Web Services (AWS)',
         description:
-          'Data Scientist, AWS Fraud Prevention | May 2021 - April 2023\nI contributed to building the real-time AWS account compromise prevention platform, designing ML models using deep neural networks and transformers to detect fraud patterns across AWS services. I developed a real-time classifier processing 1.3B+ daily events with sub-100ms latency. My work contributed to $15M in annual cost savings for AWS through high-accuracy fraud detection with significantly reduced false positives. I established MLOps best practices and CI/CD pipelines that reduced deployment time from weeks to days.',
+          'Data Scientist, AWS Fraud Prevention | 2021 - 2023\nI contributed to building the real-time AWS account compromise prevention platform, designing ML models using deep neural networks and transformers to detect fraud patterns across AWS services. I developed a real-time classifier processing 1.3B+ daily events with sub-100ms latency. My work contributed to $15M in annual cost savings for AWS through high-accuracy fraud detection with significantly reduced false positives. I established MLOps best practices and CI/CD pipelines that reduced deployment time from weeks to days.',
         link: 'https://aws.amazon.com/',
       },
       {
         name: 'Fidelity Investments',
         description:
-          'Senior Manager, Data Science | January 2018 - April 2021\nI led risk management transformation for a $32 billion investment portfolio while building and managing a team of 4 applied ML scientistss. My team developed a comprehensive risk management platform with significantly reduced false positives while ensuring regulatory compliance. I pioneered alternative data sources and advanced modeling techniques that improved risk-adjusted returns. I presented analytical findings to C-level executives and regulatory bodies, then implemented a model governance framework that was adopted across other business units.',
+          'Senior Manager, Data Science | 2018 - 2021\nI led risk management transformation for a $32 billion investment portfolio while building and managing a team of 4 applied ML scientistss. My team developed a comprehensive risk management platform with significantly reduced false positives while ensuring regulatory compliance. I pioneered alternative data sources and advanced modeling techniques that improved risk-adjusted returns. I presented analytical findings to C-level executives and regulatory bodies, then implemented a model governance framework that was adopted across other business units.',
         link: 'https://www.fidelity.com/',
       },
       {
         name: 'Fidelity Investments',
         description:
-          "Manager, Analytics & Insights | January 2016 - December 2017\nI managed a team of 5 analysts generating insights from Fidelity's investment and risk data. I led development of risk assessment models and portfolio analytics that improved risk-adjusted returns and enhanced investment decision-making processes. My team built predictive analytics for risk management and portfolio optimization. I established automated reporting frameworks using Tableau and Python, significantly reducing manual processes. I initiated Fidelity's first machine learning pilot projects in risk management.",
+          "Manager, Analytics & Insights | 2016 - 2017\nI managed a team of 5 analysts generating insights from Fidelity's investment and risk data. I led development of risk assessment models and portfolio analytics that improved risk-adjusted returns and enhanced investment decision-making processes. My team built predictive analytics for risk management and portfolio optimization. I established automated reporting frameworks using Tableau and Python, significantly reducing manual processes. I initiated Fidelity's first machine learning pilot projects in risk management.",
         link: 'https://www.fidelity.com/',
       },
     ],
@@ -81,13 +81,13 @@ module.exports = {
       {
         name: 'New York University, Leonard N. Stern School of Business',
         description:
-          'Master of Business Administration | May 2019\nSpecializations: Business Analytics, Quantitative Finance, Financial Technology',
+          'Master of Business Administration\nSpecializations: Business Analytics, Quantitative Finance, Financial Technology',
         link: 'https://www.stern.nyu.edu/',
       },
       {
         name: "Northeastern University, D'Amore-McKim School of Business",
         description:
-          'Bachelor of Science in Business Administration | December 2013\nSpecializations: Information Systems, Marketing',
+          'Bachelor of Science in Business Administration\nSpecializations: Information Systems, Marketing',
         link: 'https://www.northeastern.edu/',
       },
     ],
