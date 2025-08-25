@@ -27,7 +27,7 @@ module.exports = {
       {
         name: 'AWS Fraud Prevention Platform',
         description:
-          'Led development of real-time fraud prevention platform for enterprise clients, delivering $30M+ in annual savings through advanced ML techniques and high-accuracy fraud detection.',
+          'Led development of real-time fraud prevention platform, delivering $30M+ in annual savings through advanced ML techniques and high-accuracy fraud detection.',
         link: 'https://aws.amazon.com/fraud-prevention/',
       },
       {
