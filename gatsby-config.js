@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Max Voelker`,
     // Description that goes under your name in main bio
-    description: `Leader of ML/AI initiatives for Fraud Prevention at Amazon Web Services with 10+ years of experience in Data Science and risk management.`,
+    description: `Machine learning leader with 9+ years building production ML systems and 7+ years management experience at AWS and Fidelity.`,
     // Author info for SEO
     author: `Max Voelker`,
     // Keywords for SEO
@@ -21,19 +21,19 @@ module.exports = {
     // Optional: Resume URL
     resume: `https://www.dropbox.com/scl/fi/gvq2ybgjfymmdau9xjlhq/Charles_Voelker_Resume.pdf?rlkey=3lc1yc8yewn7axju7ikzh3ab8&st=v82s1mpb&dl=0`,
     // Content of the About Me section
-    about: `I'm a technical leader focused on building ML/AI systems at massive scale to solve complex business problems. Over the past decade, I've moved from individual contributor to strategic executive, building high-performing data science teams. I focus on technical excellence, talent development, and delivering measurable outcomes through ML solutions.`,
+    about: `I lead a machine learning team building production fraud prevention systems at AWS. Over 9 years in ML and 7 years in management at AWS and Fidelity, I've focused on developing teams, defining technical strategy, and delivering measurable business impact. I define multi-year ML strategy, guide technical direction for systems processing billions of daily events, and partner with engineering and product teams across AWS's service portfolio. At Fidelity, I pioneered their first ML-powered financial crimes models in a highly regulated environment and hold a patent for anomaly detection (US 10,826,927).`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'AWS Fraud Prevention Platform',
         description:
-          'Led development of real-time fraud prevention platform, delivering $30M+ in annual savings through advanced ML techniques and high-accuracy fraud detection.',
+          'Lead team building fraud prevention systems across 300+ AWS services processing billions of daily events with $60M+ annual business impact.',
         link: 'https://aws.amazon.com/fraud-prevention/',
       },
       {
         name: 'Generative AI Detection System',
         description:
-          'Lead AWS account compromise detection strategy for Generative AI services, directing cross-functional team to deliver significant fraud reduction while maintaining low false positive rates.',
+          'Led cross-org ML initiative enabling safe scaling of GenAI services (Bedrock, SageMaker, Kiro) to millions of customers, preventing $20.8M in fraud losses while maintaining seamless customer experience.',
         link: 'https://aws.amazon.com/ai/',
       },
       {
@@ -54,25 +54,25 @@ module.exports = {
       {
         name: 'Amazon Web Services (AWS)',
         description:
-          'Data Science Manager, AWS Fraud Prevention | 2023 - Present\nI lead ML/AI initiatives for enterprise fraud prevention while managing a team of data scientists and business analysts. We have deployed 200+ machine learning models that significantly increased automation while maintaining high accuracy. I direct AWS account compromise detection strategy for generative AI services and balance technical leadership with people management, implementing mentorship programs and cross-functional frameworks that reduced deployment time from weeks to days.',
+          'Data Science Manager, AWS Fraud Prevention | 2023 - Present\nLead distributed ML team building fraud prevention systems across 300+ AWS services, processing billions of daily events with $60M+ annual business impact. Define multi-year ML strategy and technical roadmap, partnering with engineering and product teams globally. Scaled team from 4 to 8 members (88% hire rate), developed 3 to promotion (60% rate). Led cross-org initiative enabling safe scaling of GenAI services (Bedrock, SageMaker, Kiro), preventing $20.8M in fraud losses.',
         link: 'https://aws.amazon.com/',
       },
       {
         name: 'Amazon Web Services (AWS)',
         description:
-          'Data Scientist, AWS Fraud Prevention | 2021 - 2023\nI contributed to building the real-time AWS account compromise prevention platform, designing ML models using deep neural networks and transformers to detect fraud patterns across AWS services. I developed a real-time classifier processing 1.3B+ daily events with sub-100ms latency. My work contributed to $15M in annual cost savings for AWS through high-accuracy fraud detection with significantly reduced false positives. I established MLOps best practices and CI/CD pipelines that reduced deployment time from weeks to days.',
+          'Data Scientist, AWS Fraud Prevention | 2021 - 2023\nBuilt production ML systems processing 1.3B+ daily events, achieving $60M+ in annual cost savings and 97% fraud reduction. Owned full ML lifecycle from research through deployment, including real-time inference architecture, automated retraining pipelines, and model monitoring at billion-event scale. Implemented gradient boosting models for high-throughput classification and developed transformer-based sequence models improving prediction accuracy 35%.',
         link: 'https://aws.amazon.com/',
       },
       {
         name: 'Fidelity Investments',
         description:
-          'Senior Manager, Data Science | 2018 - 2021\nI led risk management transformation for a $32 billion investment portfolio while building and managing a team of 4 applied ML scientistss. My team developed a comprehensive risk management platform with significantly reduced false positives while ensuring regulatory compliance. I pioneered alternative data sources and advanced modeling techniques that improved risk-adjusted returns. I presented analytical findings to C-level executives and regulatory bodies, then implemented a model governance framework that was adopted across other business units.',
+          'Senior Manager, Data Science | 2018 - 2021\nLed 4-person ML team in Enterprise Risk Management delivering 10+ production systems across classification, anomaly detection, and risk forecasting. Launched Fidelity\'s first ML-powered financial crimes detection models in highly regulated environment, partnering with compliance, legal, and risk management. Built market risk forecasting system for $32B institutional margin book using LSTMs and Monte Carlo simulation. Deployed ML infrastructure processing 200M+ daily transactions with sub-second latency.',
         link: 'https://www.fidelity.com/',
       },
       {
         name: 'Fidelity Investments',
         description:
-          "Manager, Analytics & Insights | 2016 - 2017\nI managed a team of 5 analysts generating insights from Fidelity's investment and risk data. I led development of risk assessment models and portfolio analytics that improved risk-adjusted returns and enhanced investment decision-making processes. My team built predictive analytics for risk management and portfolio optimization. I established automated reporting frameworks using Tableau and Python, significantly reducing manual processes. I initiated Fidelity's first machine learning pilot projects in risk management.",
+          'Manager, Analytics & Insights | 2016 - 2018\nLed cross-functional team of 4 scientists, analysts, and engineers building analytics and ML capabilities across Corporate Risk and Compliance programs. Developed and patented ML system for anomaly detection using isolation forests, reducing incidents 98% across $2.8T in assets (US Patent 10,826,927). Built analytics program standardizing data-driven decision making and established big data monitoring capabilities managing billions of records.',
         link: 'https://www.fidelity.com/',
       },
     ],
@@ -94,24 +94,24 @@ module.exports = {
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Machine Learning & AI',
+        name: 'Machine Learning',
         description:
-          'Deep Neural Networks, Transformers, LLM/ Generative AI, Agentic Systems, Anomaly Detection, Time Series Analysis',
+          'Deep Learning, Neural Networks, Transformers & LLMs (GPT, BERT), PyTorch, TensorFlow, Anomaly Detection, Fraud Detection, Gradient Boosting (XGBoost, LightGBM), Feature Engineering, Time Series Analysis',
+      },
+      {
+        name: 'Leadership & Management',
+        description:
+          'Team Building & Scaling, Hiring & Talent Development, Technical Strategy & Roadmapping, Performance Management, Career Development, Cross-functional Leadership, Stakeholder Management',
       },
       {
         name: 'MLOps & Infrastructure',
         description:
-          'MLflow, Kubeflow, SageMaker, CI/CD for ML, A/B Testing, Model Monitoring, Docker, Kubernetes',
+          'SageMaker, MLflow, Real-time Inference, Model Deployment, CI/CD Pipelines, Model Monitoring, A/B Testing, Feature Stores, Model Versioning, Distributed Systems',
       },
       {
         name: 'Programming & Cloud',
         description:
-          'Python, R, SQL, PySpark, AWS (EC2, S3, Lambda, EMR), Spark, Hadoop, Kafka, Airflow',
-      },
-      {
-        name: 'Leadership & Strategy',
-        description:
-          'Team Development, Technical Mentorship, Performance Management, Strategic Planning, Resource Allocation',
+          'Python, R, SQL, Docker, Kubernetes, AWS (EC2, S3, Lambda, SageMaker, EMR, Bedrock), Spark, Hadoop, Kafka, Airflow',
       },
     ],
   },
